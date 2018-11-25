@@ -1,0 +1,16 @@
+.block-center {
+  margin: 0 auto;
+  display: block; }
+
+.tophead {
+  background: #ccc;
+  height: 100vh;
+  padding: 0;
+  padding-bottom: 0;
+  min-height: 775px; }
+
+.register {
+  background: #999;
+  padding: 5rem 0; }
+
+/*# sourceMappingURL=style.css.map */
