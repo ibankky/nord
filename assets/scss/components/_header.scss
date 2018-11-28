@@ -8,9 +8,10 @@
         padding: 2em 0 0;
     }
     .main-menu{
-        font-size: 1.1em;
         a {
             color: $white;  
+            font-size: 1.3em;
+            padding: 0 0.3em;
         }
         .list-inline-item::after {
             content:"|";

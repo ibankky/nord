@@ -1,0 +1,38 @@
+.project-detail{
+    padding:0 0 5em 0;
+    background: $section-bg;
+    .nav-detail{
+        padding: 3em 0;
+    }
+    .nav-tabs{
+        border:none;
+    }
+    .nav-tabs .nav-link{
+        border-left:none;
+        border-right:none;
+        border-top:none;
+        border-bottom: solid 1px #000;
+        background-color:transparent;
+        color: $grey;
+        font-size: 1.4em;
+        letter-spacing: 1px;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.4;
+        padding: 0.5em 0;
+        width: 75%;
+        &:last-child {
+            border-bottom: none;
+        }
+        
+    }
+    .nav-tabs .nav-link.active{
+        color: $black;
+        
+    }
+    .tab-pane{
+        padding: 5em 0;
+    }
+    
+    
+}
