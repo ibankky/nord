@@ -53,20 +53,23 @@ a {
     font-size: 1.4em;
     border-radius: 0; }
 
-.facilities {
+.conveniently {
   padding: 5em 0; }
-  .facilities .icon-facility {
+  .conveniently .icon-facility {
     width: 50px; }
-  .facilities .facility-list {
+  .conveniently .facility-list {
     min-height: 4em; }
-    .facilities .facility-list p {
+    .conveniently .facility-list p {
       font-weight: bold;
       text-transform: capitalize;
       line-height: 1.4;
       padding: 1em 0 0;
       margin: 0; }
-    .facilities .facility-list .icon-facility {
+    .conveniently .facility-list .icon-facility {
       margin-right: 1em; }
+
+.facilities {
+  padding: 5em 0; }
 
 .concept {
   padding: 5em 0;
@@ -129,5 +132,23 @@ a {
     color: #000; }
   .project-detail .tab-pane {
     padding: 5em 0; }
+
+.gallery {
+  padding: 5em 0;
+  background: #F4EDE5; }
+  .gallery .slick-slide img {
+    width: 100%; }
+  .gallery .slick-slide {
+    padding: 1em;
+    transition: all ease-in-out .3s;
+    opacity: .2;
+    outline: none; }
+  .gallery .slick-active {
+    opacity: .5; }
+  .gallery .slick-current {
+    opacity: 1; }
+
+.plan-home {
+  padding: 5em 0; }
 
 /*# sourceMappingURL=style.css.map */

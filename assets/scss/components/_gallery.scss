@@ -1,0 +1,21 @@
+.gallery{
+    padding: 5em 0;
+    background: $section-bg;
+    .slick-slide img {
+        width: 100%;
+    }
+    .slick-slide {
+        padding: 1em;
+        transition: all ease-in-out .3s;
+        opacity: .2;
+        outline: none;
+      }
+      
+      .slick-active {
+        opacity: .5;
+      }
+  
+      .slick-current {
+        opacity: 1;
+      }
+}
