@@ -1,0 +1,26 @@
+.regis-form{
+    background: $section-bg;
+    padding: 3em 0;
+    .form-logo{
+        max-width: 300px;
+        margin: 0 0 3em 0;
+    }
+    .form-register{
+        padding: 3em 0;
+    }
+    .form-group{
+        .form-control{
+            background: $main-color;
+            color: $white;
+            box-shadow: none;
+            border-radius: 0;
+        }
+    }
+    .btn-confirm{
+        margin: 1em 0 0 0;
+        background: none;
+        border:solid 1px #000;
+        padding: 0.4em 3em;
+        color: #000;
+    }
+}

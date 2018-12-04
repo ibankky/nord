@@ -70,6 +70,25 @@ a {
 
 .facilities {
   padding: 5em 0; }
+  .facilities .toppic-fac {
+    color: #C7B08E;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 2em; }
+  .facilities .list-fac li {
+    list-style: none;
+    height: 2em; }
+    .facilities .list-fac li:before {
+      content: ".";
+      font-size: 120px;
+      display: inline-block;
+      position: relative;
+      line-height: 0;
+      right: 10px; }
+    .facilities .list-fac li p {
+      font-size: 1.2rem;
+      margin: 0;
+      display: inline-block; }
 
 .concept {
   padding: 5em 0;
@@ -106,10 +125,10 @@ a {
       padding: 0 1px; }
 
 .project-detail {
-  padding: 0 0 5em 0;
+  padding: 0;
   background: #F4EDE5; }
   .project-detail .nav-detail {
-    padding: 3em 0; }
+    padding: 3em 0 0; }
   .project-detail .nav-tabs {
     border: none; }
   .project-detail .nav-tabs .nav-link {
@@ -150,5 +169,45 @@ a {
 
 .plan-home {
   padding: 5em 0; }
+
+.map .link-map {
+  color: #000;
+  text-align: center;
+  line-height: 2;
+  text-decoration: underline;
+  margin: 2em 0 0 0; }
+  .map .link-map a {
+    color: #000; }
+
+.regis-form {
+  background: #F4EDE5;
+  padding: 3em 0; }
+  .regis-form .form-logo {
+    max-width: 300px;
+    margin: 0 0 3em 0; }
+  .regis-form .form-register {
+    padding: 3em 0; }
+  .regis-form .form-group .form-control {
+    background: #C7B08E;
+    color: #fff;
+    box-shadow: none;
+    border-radius: 0; }
+  .regis-form .btn-confirm {
+    margin: 1em 0 0 0;
+    background: none;
+    border: solid 1px #000;
+    padding: 0.4em 3em;
+    color: #000; }
+
+.footer {
+  background: #000;
+  padding: 3em 0; }
+  .footer .link-inline {
+    text-align: center;
+    font-size: 2em; }
+    .footer .link-inline a {
+      color: #fff; }
+    .footer .link-inline li {
+      padding: 0 0.2em; }
 
 /*# sourceMappingURL=style.css.map */

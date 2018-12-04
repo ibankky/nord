@@ -1,0 +1,15 @@
+.footer{
+    background: $black;
+    padding: 3em 0;
+    .link-inline{
+        text-align: center;
+        font-size: 2em;
+        a{
+            color: $white
+        }
+        li{
+            padding: 0 0.2em;
+        }
+        
+    }
+}

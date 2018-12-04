@@ -1,4 +1,28 @@
 .facilities{
     padding: 5em 0;
-    
+    .toppic-fac{
+        color: $main-color;
+        font-weight: bold;
+        letter-spacing: 2px;
+        padding-left: 2em;
+    }
+    .list-fac{
+        li {
+            list-style: none;
+            height: 2em;
+            &:before{
+                content: ".";
+                font-size: 120px;
+                display:inline-block;
+                position: relative;
+                line-height: 0;
+                right: 10px;
+            }    
+            p{
+                font-size: 1.2rem;
+                margin: 0;
+                display:inline-block;
+            }
+        }
+    }
 }
