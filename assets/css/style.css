@@ -15,11 +15,11 @@ a {
   display: block; }
 
 .tophead {
-  background: url("../../assets/images/header-bg.jpg") no-repeat right bottom;
+  background: url("../../assets/images/bg-img/new-design-header.jpg") no-repeat center bottom;
   height: 100vh;
   padding: 0;
   padding-bottom: 0;
-  min-height: 820px; }
+  min-height: 1070px; }
   .tophead .logo-main {
     padding: 2em 0 0; }
   .tophead .main-menu a {
@@ -36,9 +36,17 @@ a {
     content: "";
     color: #fff;
     padding: 0 0.5em; }
+  .tophead .bg-main {
+    background: #C4B190;
+    position: relative;
+    top: -28px; }
+    .tophead .bg-main a {
+      color: #fff; }
+    .tophead .bg-main .nav-link {
+      text-transform: uppercase;
+      padding: 0.5em 2.5em; }
 
 .register {
-  background: url("../../assets/images/sub-bg.jpg") no-repeat right bottom;
   padding: 5rem 0;
   min-height: 700px; }
   .register .logo-sub {
@@ -52,6 +60,9 @@ a {
     font-weight: bold;
     font-size: 1.4em;
     border-radius: 0; }
+  .register .regis-bg {
+    background: url("../../assets/images/bg-img/regis-bg.jpg") no-repeat left center;
+    height: 600px; }
 
 .conveniently {
   padding: 5em 0; }
@@ -71,7 +82,7 @@ a {
 .facilities {
   padding: 5em 0; }
   .facilities .toppic-fac {
-    color: #C7B08E;
+    color: #C4B190;
     font-weight: bold;
     letter-spacing: 2px;
     padding-left: 2em; }
@@ -93,29 +104,13 @@ a {
 .concept {
   padding: 5em 0;
   background: #F4EDE5; }
-  .concept .logo-concept {
-    max-width: 400px; }
-  .concept .concept-txt {
-    padding: 2.5em 0;
-    background: url("../../assets/images/concept-img-tree.png") no-repeat left bottom;
-    height: 500px;
-    margin: 0 0 7em 0; }
-    .concept .concept-txt h3 {
-      font-weight: bold;
-      letter-spacing: 2px; }
-  .concept .concept-head {
-    font-weight: bold;
-    margin: 0 0 2em 0;
-    font-size: 1.7em; }
-  .concept .concept-det {
-    padding: 1.5em 0 4em;
+  .concept .concept-header {
+    text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 1.4em; }
-  .concept .blackline {
-    border-top: 2px solid #000;
-    width: 60%; }
-  .concept .img-det {
-    width: 100%; }
+    padding: 1em 0 2em; }
+  .concept .concept-subheader {
+    letter-spacing: 2px;
+    padding: 0 0 3em; }
   .concept .img-concept {
     font-size: 1.4em;
     padding: 3em 0 0;
@@ -155,10 +150,11 @@ a {
 .gallery {
   padding: 5em 0;
   background: #F4EDE5; }
+  .gallery .slick-list {
+    background: rgba(0, 0, 0, 0.8); }
   .gallery .slick-slide img {
     width: 100%; }
   .gallery .slick-slide {
-    padding: 1em;
     transition: all ease-in-out .3s;
     opacity: .2;
     outline: none; }
@@ -188,7 +184,7 @@ a {
   .regis-form .form-register {
     padding: 3em 0; }
   .regis-form .form-group .form-control {
-    background: #C7B08E;
+    background: #C4B190;
     color: #fff;
     box-shadow: none;
     border-radius: 0; }

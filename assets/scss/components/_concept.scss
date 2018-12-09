@@ -1,35 +1,14 @@
 .concept{
     padding: 5em 0;
     background: $section-bg;
-    .logo-concept{
-        max-width: 400px;
-    }
-    .concept-txt{
-        padding: 2.5em 0;
-        background: url('../../assets/images/concept-img-tree.png') no-repeat left bottom;
-        height: 500px;
-        h3{
-            font-weight: bold;
-            letter-spacing: 2px;
-        }
-        margin: 0 0 7em 0;
-    }
-    .concept-head{
-        font-weight: bold;
-        margin: 0 0 2em 0;
-        font-size: 1.7em;
-    }
-    .concept-det{
-        padding: 1.5em 0 4em;
+    .concept-header{
+        text-transform: uppercase;
         letter-spacing: 2px;
-        font-size: 1.4em;
+        padding: 1em 0 2em;
     }
-    .blackline{
-        border-top: 2px solid $black ;
-        width: 60%;
-    }
-    .img-det{
-        width: 100%;
+    .concept-subheader{
+        letter-spacing: 2px;
+        padding: 0 0 3em;
     }
     .img-concept{
         font-size: 1.4em;

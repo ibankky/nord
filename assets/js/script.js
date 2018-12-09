@@ -16,3 +16,15 @@ $(function(){
         focusOnSelect: true
       });
   });
+
+  $(function(){
+    $('.main-gallery').slick({
+      centerMode: true,
+      infinite: true,
+      centerPadding: '150px',
+      slidesToShow: 1,
+      speed: 500,
+      variableWidth: false,
+    
+    });
+  });

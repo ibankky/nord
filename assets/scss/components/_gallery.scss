@@ -1,11 +1,13 @@
 .gallery{
     padding: 5em 0;
     background: $section-bg;
+    .slick-list{
+      background: rgba(0, 0, 0, 0.8)
+    }
     .slick-slide img {
         width: 100%;
     }
     .slick-slide {
-        padding: 1em;
         transition: all ease-in-out .3s;
         opacity: .2;
         outline: none;
