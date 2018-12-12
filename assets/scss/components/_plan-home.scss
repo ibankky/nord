@@ -1,3 +1,43 @@
 .plan-home{
     padding: 5em 0;
+    .btn-floor{
+        margin: 3em auto;
+        text-align: center;
+       .btn{
+            background: none;
+            border-radius: 0;
+            border:solid 2px $main-color;
+            margin: 0 0.5em;
+            width: 2.5em;
+            height: 2.5em;
+            color: $main-color;
+            font-weight: bolder;
+            span{
+                font-size: 0.7em;
+                line-height: 0;
+                position: relative;
+                top: -5px;
+            }
+        }
+    }
+    .floor-plan{
+        border-left: solid 2px $main-color;
+        padding: 2em 0;
+    }
+    .room-det{
+        text-align: center;
+        vertical-align: bottom;
+        .room-name{
+            font-size: 1.2em;
+            margin: 0;
+            text-transform: uppercase;
+            line-height: 1.1;
+        }
+        .room-data{
+            color: $main-color;
+            font-size: 2em;
+            line-height: 1.2;
+            margin-bottom: 1em;
+        }
+    }
 }

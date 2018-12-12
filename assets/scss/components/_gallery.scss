@@ -1,8 +1,43 @@
 .gallery{
-    padding: 5em 0;
-    background: $section-bg;
+    padding: 5em 0 2em 0;
+    //background: $section-bg;
+    .slick-next{
+      right: 50px;
+    }
+    .slick-prev{
+      left: 50px;
+      color: #fff;
+      z-index: 999;
+      &:before {
+        content: "\f053";
+        font-family: 'Font Awesome\ 5 Free';
+        font-weight: 900;
+        color: #fff;
+        font-size: 50px;
+        opacity: 1;
+        
+      }
+    }
+    .slick-next{
+      right: 50px;
+      color: #fff;
+      z-index: 999;
+      
+      &:before {
+        content: "\f054";
+        font-family: 'Font Awesome\ 5 Free';
+        font-weight: 900;
+        color: #fff;
+        font-size: 50px;
+        opacity: 1;
+        
+      }
+    }
+
     .slick-list{
-      background: rgba(0, 0, 0, 0.8)
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 996;
+     
     }
     .slick-slide img {
         width: 100%;
@@ -19,5 +54,46 @@
   
       .slick-current {
         opacity: 1;
+      }
+
+      .slide-bg{
+        background: url('../../assets/images/bg-img/slider-bg.jpg') no-repeat left center;
+        height: 600px;
+        background-size:cover;
+      }
+      .facility-bg{
+        background: $main-color;
+        color: $white;
+        //min-height: 400px;
+        margin-top: 5em;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 5em 0;
+        h3 {
+          font-size: 1.5em;
+        }
+        .dot {
+          height: 0.5em;
+          width: 0.5em;
+          background-color: $white;
+          border-radius: 50%;
+          display: block;
+          margin: 1em auto;
+        }
+      }
+
+      .btn-exclusive{
+        border: solid 2px $main-color;
+        color: #000000;
+        text-transform: uppercase;
+        font-size: 1.2em;
+        padding: 0.8em 2em;
+        border-radius: 0;
+        background: none;
+        margin: 2em 0;
+
+      }
+      .gallery-text{
+        margin: 0 0 2em 0;
       }
 }
