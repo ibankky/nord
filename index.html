@@ -16,48 +16,15 @@
     <title>NORD Website</title>
   </head>
   <body>
-    <!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <div class="container">
-          <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu
-            <i class="fas fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#download">Download</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#features">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-    </nav> -->
+    
 
       <header class="tophead">
         <div class="container h-100">
           <div class="row h-100">
-            <div class="col-lg-12">
-                <!-- <img class="block-center logo-main" src="./assets/images/nord-log-top-white.png">
-                <div class="main-menu text-center">
-                  <ul class="list-inline">
-                    <li class="list-inline-item"><a href="#">หน้าหลัก</a></li>
-                    <li class="list-inline-item"><a href="#">แนวคิด</a></li>
-                    <li class="list-inline-item"><a href="#">ดาวน์โหลดโบรชัวร์</a></li>
-                    <li class="list-inline-item"><a href="#">ลงทะเบียน</a></li>
-                    <li class="list-inline-item"><a href="#">ติดต่อเรา</a></li>
-                  </ul>
-                </div> -->
-            </div>
           </div>
         </div>
         <div class="container">
-            <nav class="navbar navbar-expand-md bg-main">
+            <nav id="navbar" class="navbar navbar-expand-md bg-main">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -558,6 +525,19 @@
     <script type="text/javascript" src="./assets/js/jquery.easing.min.js"></script>
     <script type="text/javascript" src="./assets/js/scrolling-nav.js"></script>
     <script type="text/javascript" src="./assets/js/script.js" ></script>
-    
+    <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky-nav")
+              } else {
+                navbar.classList.remove("sticky-nav");
+              }
+            }
+    </script>
 </body>
 </html>
