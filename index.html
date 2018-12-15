@@ -8,7 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <!-- <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'> -->
+    <link href="https://fonts.googleapis.com/css?family=Faustina:400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Athiti:400,600&amp;subset=thai" rel="stylesheet" type='text/css'>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/lib/slick.css">
@@ -32,7 +33,7 @@
                 <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link js-scroll-trigger" href="#gallery">Floor Plan</a>
+                            <a class="nav-link js-scroll-trigger" href="#plan-home">Floor Plan</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#plan-project">Master Plan</a>
@@ -163,7 +164,7 @@
                         <h1 class="concept-header">Where Your Pass Roots <br>and Future Grow</h1>
                     </div>
                 </div>
-                <div class="row text-center">
+                <div class="row text-center concept-detail">
                         <div class="col-lg-10 offset-lg-1">
                             <h3 class="concept-subheader">
                             a house Is a living gallery of one's life experiences <br>
@@ -209,14 +210,17 @@
                     </div>
               </div> -->      
           </div> 
-          <div class="container-fluid">
-                <div class="row text-center">
-                        <div class="col-lg-12 non-padding">
-                            <img class="img-fluid img-det" src="./assets/images/bg-img/new-concept-bg.jpg">
-                        </div>
-                        
-                </div>
-          </div>     
+               
+      </section>
+      <section>
+        <div class="container-fluid">
+            <div class="row text-center">
+                    <div class="col-lg-12 non-padding">
+                        <img class="img-fluid img-det" src="./assets/images/bg-img/new-concept-bg.jpg">
+                    </div>
+                    
+            </div>
+      </div>
       </section>
       
       <section class="gallery" id="gallery">
@@ -241,7 +245,10 @@
                   </div>
                   <div class="col-lg-12">
                       <h3 class="text-center gallery-text">SAMPLE SPACE TO KEEP SAVE EVERYONE'S MEMORIES</h3>
-                </div>
+                      <button class="btn btn-360">
+                          <img class="img-fluid" src="./assets/images/icon/360-btn-bg.png">
+                      </button>
+                 </div>
               </div>
               <div class="row"> 
                 <div class="col-lg-12 slide-bg">
@@ -261,7 +268,7 @@
               </div>
               <div class="row">
                   <div class="col-lg-12 text-center">
-                        <button type="button" class="btn btn-exclusive"> Exclusive For 9 Units</button>
+                        <button type="button" class="btn btn-exclusive"> Exclusive 9 Units</button>
                   </div>
               </div>
               
@@ -274,7 +281,7 @@
                     <div class="col-lg-10 offset-lg-1">
                         <div class="row">
                             <div class="col-lg-6">
-                                <img class="img-fluid" src="./assets/images/floor-plan1.png">
+                                <img class="img-fluid" src="./assets/images/floor-plan-1-news.png">
                             </div>
                             <div class="col-lg-6 floor-plan">
                                 <h3 class="text-center">Floor Plan</h3>
@@ -319,8 +326,8 @@
       <section class="plan-project" id="plan-project">
             <div class="container">
                     <div class="row">
-                        <div class="col-lg-10 offset-lg-1">
-                            <h3 class="text-center">Master Plan</h3>
+                        <div class="col-lg-8 offset-lg-2 pb-5">
+                            <h3 class="text-center pb-5">Master Plan</h3>
                             <div class="row">
                                 <div class="col-lg-10 offset-lg-1">
                                         <img class="img-fluid" src="./assets/images/plan-1.png">
@@ -470,38 +477,70 @@
                             <div class="col-lg-4">
                                 <img class="img-fluid form-logo" src="assets/images/nord-log-top-white.png">
                                 <div class="regis-detail">
-                                    <h4>SALE GALLERY</h4>
-                                    <p>Rama 9 soi 49</p>
-                                    <p>Suanluang, Bangkok 10250</p>
-                                    <p>Info @ asseta.com</p>
-                                    <p>081 234 5678</p>
+                                    <h4 class="regis-sale">SALE GALLERY</h4>
+                                    <div class="spacing">
+                                        <p>Rama 9 soi 49</p>
+                                        <p>Suanluang, Bangkok 10250</p>
+                                    </div>
+                                    <div class="spacing">
+                                        <p>Info @ asseta.com</p>
+                                        <p>081 234 5678</p>
+                                    </div>
+                                    <div class="spacing">
+                                            <ul class="list-inline social-list">
+                                                <li class="list-inline-item">
+                                                    <a href="#">
+                                                        <i class="fab fa-facebook-square"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#">
+                                                        <i class="fab fa-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#">
+                                                        <i class="fab fa-line"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-8">
                                 <form class="form-register">
                                     <div class="form-group">
-                                        <label for="regis-form-name">ชื่อ</label>
+                                        <!-- <label for="regis-form-name">ชื่อ</label> -->
                                         <input type="text" class="form-control" id="regis-form-name" placeholder="ชื่อ">
                                     </div>
                                     <div class="form-group">
-                                        <label for="regis-form-tel">เบอร์ติดต่อ</label>
+                                        <!-- <label for="regis-form-tel">เบอร์ติดต่อ</label> -->
                                         <input type="text" class="form-control" id="regis-form-tel" placeholder="เบอร์ติดต่อ">
                                     </div>
                                     <div class="form-group">
-                                        <label for="regis-form-email">อีเมล์</label>
+                                        <!-- <label for="regis-form-email">อีเมล์</label> -->
                                         <input type="email" class="form-control" id="regis-form-email" placeholder="อีเมล์">
                                     </div>
-                                    <div class="form-group">
-                                            <label for="regis-form-time">ช่วงเวลาที่สะดวกให้เราติดต่อกลับ</label>
-                                            <select class="form-control" id="regis-form-time">
-                                              <option>1</option>
-                                              <option>2</option>
-                                              <option>3</option>
-                                              <option>4</option>
-                                              <option>5</option>
-                                            </select>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                             <div class="form-group">
+                                                   
+                                                    <select class="form-control" id="regis-form-time">
+                                                    <option>PREFERRED TIME TO CONTACT</option>    
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                    </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                                <button type="submit" class="btn btn-confirm float-right">Submit</button>
+                                        </div>
                                     </div>
-                                    <button type="submit" class="btn btn-confirm">ยืนยัน</button>
+                                   
+                                   
                                 </form>
                                 
                             </div>

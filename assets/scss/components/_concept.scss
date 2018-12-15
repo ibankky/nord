@@ -1,6 +1,9 @@
 .concept{
     padding: 5em 0;
-    background: $section-bg;
+    background-image: url('../../assets/images/bg-img/left-bg-left.png'), url('../../assets/images/bg-img/right-bg-tree.png');
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    background-size: 180px , 250px ;
     .concept-header{
         text-transform: uppercase;
         letter-spacing: 2px;
@@ -18,5 +21,8 @@
             font-weight: bold;
             padding: 0 1px;
         }
-    }   
+    }  
+    .concept-detail{
+        padding-bottom: 5em;
+    } 
 }

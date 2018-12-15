@@ -1,17 +1,22 @@
 .project-detail{
     padding:5em 0;
-    //background: $section-bg;
+    background: url('../../assets/images/bg-img/big-leaf-bg.png') no-repeat right bottom;
+    background-size: 250px;
+    background-position: right -50px bottom 10px;
     .heading-topic{
         text-transform: uppercase;
         font-weight: bold;
         letter-spacing: 2px;
+        font-weight: 500;
     }
     .btn-map{
         background: $main-color;
         color: #fff;
         text-transform: uppercase;
-        padding: 0.5em 2.5em;
+        padding: 0.8em 2.5em;
         margin: 2em 0 5em 0;
+        border-radius: 0;
+        letter-spacing: 1.5px;
     }
     .nav-detail{
         padding: 3em 0 0;
