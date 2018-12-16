@@ -25,6 +25,17 @@ $(function(){
       slidesToShow: 1,
       speed: 500,
       variableWidth: false,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: true,
+            centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 1
+          }
+        },
+      ]
     
     });
   });

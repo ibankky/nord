@@ -3,6 +3,12 @@
     .btn-floor{
         margin: 3em auto;
         text-align: center;
+        .active{
+            .btn{
+                background: $main-color;
+                color: #fff;
+            } 
+        }
        .btn{
             background: none;
             border-radius: 0;
@@ -21,6 +27,9 @@
                 top: -5px;
                 left: 2px;
             }
+        }
+        .nav{
+            display: block;
         }
     }
     .floor-plan{
