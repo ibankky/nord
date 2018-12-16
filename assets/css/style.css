@@ -388,8 +388,10 @@ a {
         text-decoration: underline !important;
         display: block; }
   @media only screen and (max-width: 992px) {
-    .news .news-thumnail img {
-      width: 100%; } }
+    .news .news-thumnail {
+      height: auto; }
+      .news .news-thumnail img {
+        width: 100%; } }
 
 .news-modal p {
   padding: 2em 0; }
