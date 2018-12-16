@@ -40,16 +40,22 @@
     }
     @media only screen and (max-width: 992px) {
         .news-thumnail{
-            height: auto;
             img {
                 width: 100%;
             }
         }
+        
     }
 }
 .news-modal{
     p{
         padding: 2em 0;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .news .news-block .news-thumnail{
+        height: auto; 
     }
 }
 
