@@ -1,9 +1,49 @@
 .news{
+    padding: 3em 0;
     .news-toppic{
         padding: 2em 0;
         text-transform: uppercase;
     }
     .news-block{
-        padding: 0 2em;
+        padding: 3em 2em;
+        position: relative;
+        .news-thumnail{
+            height: 15em;
+            overflow: hidden; 
+        }
+        .news-content{
+            background: $main-color;
+            padding:1em;
+        }
+        .new-det{
+            color: #fff;
+            letter-spacing: 1px;
+            font-weight: 300;
+            font-size: 0.9em;
+            line-height: 1.6;
+            margin: 0;
+        }
+        .read-more{
+            margin: 0;
+            a{
+                padding: 0.5em 0 0 0;
+                color: #fff;
+                font-size: 1em;
+                text-transform: uppercase;
+                font-weight: 300;
+                letter-spacing: 1.5px;
+                text-decoration: underline!important;
+                display: block;
+            }
+            
+        }
+    }
+   
+}
+.news-modal{
+    p{
+        padding: 2em 0;
     }
 }
+
+  

@@ -25,7 +25,7 @@
           </div>
         </div>
         <div class="container">
-            <nav id="navbar" class="navbar navbar-expand-md bg-main">
+            <nav id="navbar" class="navbar navbar-dark navbar-expand-md bg-main">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -429,41 +429,44 @@
                         <h3 class="text-center news-toppic">News</h3>
                         <div class="row">
                             <div class="col-lg-4 news-block">
-                                <img class="img-fluid" src="assets/images/nord-news.png">
-                                <p class="text-cenrer">
-                                    11/11/2018
-                                </p>
-                                <p class="new-det">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                </p>
-                                <p class="read-more"><a href="#">Read More</a></p>
+                                <div class="news-thumnail">
+                                     <img src="./assets/images/gallery-img.png">
+                                </div>
+                                <div class="news-content">
+                                    <p class="new-det">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                            Lorem Ipsum has been the industry's standard dummy text.
+                                    </p>
+                                    <p class="read-more text-right"><a href="#" data-toggle="modal" data-target="#newsModal">Read More</a></p>
+                                </div>
+                                 
+                                
                             </div>
                             <div class="col-lg-4 news-block">
-                                <img class="img-fluid" src="assets/images/nord-news.png">
-                                <p class="text-cenrer">
-                                    11/11/2018
-                                </p>
-                                <p class="new-det">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                </p>
-                                <p class="read-more"><a href="#">Read More</a></p>
+                                <div class="news-thumnail">
+                                     <img src="./assets/images/nord-news.png">
+                                </div>
+                                <div class="news-content">
+                                    <p class="new-det">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                            Lorem Ipsum has been the industry's standard dummy text.
+                                    </p>
+                                    <p class="read-more text-right"><a href="#" data-toggle="modal" data-target="#newsModal">Read More</a></p>
+                                </div>
                             </div>
                             <div class="col-lg-4 news-block">
-                                <img class="img-fluid" src="assets/images/nord-news.png">
-                                <p class="text-cenrer">
-                                    11/11/2018
-                                </p>
-                                <p class="new-det">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                </p>
-                                <p class="read-more"><a href="#">Read More</a></p>
-                            </div>
+                                    <div class="news-thumnail">
+                                         <img src="./assets/images/detail-img1.png">
+                                    </div>
+                                    <div class="news-content">
+                                        <p class="new-det">
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                Lorem Ipsum has been the industry's standard dummy text.
+                                        </p>
+                                       
+                                        <p class="read-more text-right"><a href="#" data-toggle="modal" data-target="#newsModal">Read More</a></p>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -552,6 +555,35 @@
           
         
       </section>
+
+      <div class="modal fade " id="newsModal" tabindex="-1" role="dialog" aria-labelledby="newsModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="newsModalLabel">News</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12 news-modal">
+                             <img class="img-fluid" src="./assets/images/detail-img1.png">
+                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                                 standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
+                                 scrambled it to make a type specimen book. It has survived not only five centuries, 
+                                 but also the leap into electronic typesetting, remaining essentially unchanged. 
+                                 It was popularised in the 1960s with the release of Letraset sheets containing
+                                  Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
+                                  including versions of Lorem Ipsum.</p>
+                        </div>
+                    </div>
+                   
+                </div>
+                
+              </div>
+            </div>
+          </div>
       
       
  

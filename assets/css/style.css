@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'Faustina';
   src: url("../../font/Faustina-Regular.eot");
@@ -328,11 +329,41 @@ a {
     .map .link-map a {
       color: #000; }
 
-.news .news-toppic {
-  padding: 2em 0;
-  text-transform: uppercase; }
-.news .news-block {
-  padding: 0 2em; }
+.news {
+  padding: 3em 0; }
+  .news .news-toppic {
+    padding: 2em 0;
+    text-transform: uppercase; }
+  .news .news-block {
+    padding: 3em 2em;
+    position: relative; }
+    .news .news-block .news-thumnail {
+      height: 15em;
+      overflow: hidden; }
+    .news .news-block .news-content {
+      background: #C4B190;
+      padding: 1em; }
+    .news .news-block .new-det {
+      color: #fff;
+      letter-spacing: 1px;
+      font-weight: 300;
+      font-size: 0.9em;
+      line-height: 1.6;
+      margin: 0; }
+    .news .news-block .read-more {
+      margin: 0; }
+      .news .news-block .read-more a {
+        padding: 0.5em 0 0 0;
+        color: #fff;
+        font-size: 1em;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 1.5px;
+        text-decoration: underline !important;
+        display: block; }
+
+.news-modal p {
+  padding: 2em 0; }
 
 .regis-form {
   background: url("../../assets/images/bg-img/form-bg.png") no-repeat right bottom, #c4b190;
@@ -400,5 +431,8 @@ a {
   width: 100%;
   z-index: 999;
   transition: ease-in-out .4s; }
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://wwΓÇªp='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
 
 /*# sourceMappingURL=style.css.map */
