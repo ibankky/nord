@@ -75,7 +75,11 @@
         text-transform: uppercase;
         letter-spacing: 1px;
     }
-   
-    
+    @media only screen and (max-width: 992px) {
+        .project-header{
+            text-align: center;
+        }
+    }
     
 }
+

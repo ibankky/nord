@@ -63,4 +63,12 @@
             text-align: center;
         }
     }
+    @media only screen and (max-width: 992px) {
+        .floor-plan{
+            border-left:none;
+         }
+         .tab-pane{
+             text-align: center;
+         }
+      }
 }

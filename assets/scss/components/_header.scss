@@ -44,4 +44,28 @@
             color: #fff;
         }
     }
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .tophead .bg-main .nav-link{
+        padding:0.5em 1em;
+        font-size: 0.9em;
+      }
+}
+@media only screen and (max-width: 992px) {
+    .tophead .bg-main .nav-link{
+      padding:0.5em 1em;
+      font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .tophead .bg-main{
+        z-index: 999;
+    }
+    .tophead .bg-main .nav-link{
+      padding:1em;
+      font-size: 1em;
+    }
 }
