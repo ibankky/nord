@@ -6,8 +6,12 @@
       color: #fff;
       z-index: 700;
       top:30%;
+      background: url('../../assets/images/icon/gallery-left.png') no-repeat left center !important;
+      width: 60px;
+      height: 60px;
+      opacity: 1;
       &:before {
-        content:url(../../assets/images/icon/gallery-left.png);
+        content:"";
         //font-family: 'Font Awesome\ 5 Free';
         //font-weight: 900;
         //color: #fff;
@@ -15,17 +19,26 @@
         opacity: 1;
         
       }
+      &:hover{
+        background: url('../../assets/images/icon/gallery-left.png') no-repeat left center;
+      }
     }
     .slick-next{
       right: 5%;
       color: #fff;
       z-index: 700;
       top:30%;
-      
+      background: url('../../assets/images/icon/gallery-right.png') no-repeat right center !important;
+      width: 60px;
+      height: 60px;
+      opacity: 1;
       &:before {
-        content:url(../../assets/images/icon/gallery-right.png);
+        content:"";
         opacity: 1;
         
+      }
+      &:hover{
+        background: url('../../assets/images/icon/gallery-right.png') no-repeat right center
       }
     }
 
@@ -63,7 +76,7 @@
 
       @media only screen and (max-width: 768px) {
         .slick-next{
-          right: 40px;
+          right: 0;
          }
        .slick-prev{
           left: 0;

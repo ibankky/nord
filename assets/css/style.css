@@ -253,18 +253,30 @@ a {
     left: 3%;
     color: #fff;
     z-index: 700;
-    top: 30%; }
+    top: 30%;
+    background: url("../../assets/images/icon/gallery-left.png") no-repeat left center !important;
+    width: 60px;
+    height: 60px;
+    opacity: 1; }
     .gallery .slick-prev:before {
-      content: url(../../assets/images/icon/gallery-left.png);
+      content: "";
       opacity: 1; }
+    .gallery .slick-prev:hover {
+      background: url("../../assets/images/icon/gallery-left.png") no-repeat left center; }
   .gallery .slick-next {
     right: 5%;
     color: #fff;
     z-index: 700;
-    top: 30%; }
+    top: 30%;
+    background: url("../../assets/images/icon/gallery-right.png") no-repeat right center !important;
+    width: 60px;
+    height: 60px;
+    opacity: 1; }
     .gallery .slick-next:before {
-      content: url(../../assets/images/icon/gallery-right.png);
+      content: "";
       opacity: 1; }
+    .gallery .slick-next:hover {
+      background: url("../../assets/images/icon/gallery-right.png") no-repeat right center; }
   .gallery .slick-list {
     background: rgba(0, 0, 0, 0.8);
     z-index: 600; }
@@ -287,7 +299,7 @@ a {
     background: none; }
   @media only screen and (max-width: 768px) {
     .gallery .slick-next {
-      right: 40px; }
+      right: 0; }
     .gallery .slick-prev {
       left: 0; } }
 
