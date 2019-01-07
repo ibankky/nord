@@ -181,7 +181,14 @@ a {
     padding: 1em 0 2em; }
   .concept .concept-subheader {
     letter-spacing: 2px;
-    padding: 0 0 3em; }
+    padding: 0 0 3em;
+    line-height: 1.6; }
+  .concept .concept-txt {
+    font-size: 1.4em;
+    line-height: 1.6; }
+  .concept .concept-det {
+    font-size: 1.4em;
+    line-height: 1.6; }
   .concept .img-concept {
     font-size: 1.4em;
     padding: 3em 0 0;
@@ -258,6 +265,13 @@ a {
     .project-detail .remark-icon {
       padding: 3em 0 0 1em; } }
 
+.project-data .concept-txt {
+  font-size: 1.4em;
+  line-height: 1.6;
+  padding-top: 3em; }
+  .project-data .concept-txt b {
+    padding-left: 0.5em; }
+
 .gallery {
   padding: 5em 0 2em 0; }
   .gallery .slick-prev {
@@ -303,9 +317,12 @@ a {
     opacity: 1; }
   .gallery .gallery-text {
     margin: 0.5em 0 1em 0; }
+  .gallery .txt-gallery {
+    font-size: 1.4em;
+    line-height: 2; }
   .gallery .btn-360 {
-    width: 10em;
-    margin: 0 auto 3em;
+    width: 20em;
+    margin: 0 auto 1.5em;
     display: block;
     background: none; }
   @media only screen and (max-width: 768px) {
