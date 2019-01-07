@@ -60,6 +60,12 @@
       padding:0.5em 1em;
       font-size: 0.8em;
     }
+    .tophead .bg-main{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 768px) {

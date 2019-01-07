@@ -75,7 +75,13 @@ a {
 @media only screen and (max-width: 992px) {
   .tophead .bg-main .nav-link {
     padding: 0.5em 1em;
-    font-size: 0.8em; } }
+    font-size: 0.8em; }
+
+  .tophead .bg-main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; } }
 @media only screen and (max-width: 768px) {
   .tophead .bg-main {
     z-index: 999; }
