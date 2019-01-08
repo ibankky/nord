@@ -35,7 +35,7 @@ a {
   .margin-0-row {
     margin: 0 !important; } }
 .tophead {
-  background: url("../../assets/images/bg-img/new-design-header.jpg") no-repeat center bottom;
+  background: url("../../assets/images/bg-img/header-bg-new2.jpg") no-repeat center bottom;
   height: 120vh;
   padding: 0;
   padding-bottom: 0; }
@@ -67,6 +67,14 @@ a {
       letter-spacing: 1px;
       font-weight: 100;
       color: #fff; }
+  .tophead .h-100 {
+    height: 93% !important; }
+  .tophead .navbar-text {
+    padding: 0; }
+  .tophead .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); }
 
 @media only screen and (max-width: 1200px) {
   .tophead .bg-main .nav-link {
@@ -81,7 +89,10 @@ a {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%; } }
+    width: 100%; }
+
+  .navbar-top {
+    display: none; } }
 @media only screen and (max-width: 768px) {
   .tophead .bg-main {
     z-index: 999; }
@@ -335,6 +346,14 @@ a {
 
 .plan-home {
   padding: 0em 0 5em; }
+  .plan-home .plan-home-det {
+    color: #C4B190;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0; }
+  .plan-home .home-line {
+    border-top: solid 2px #C4B190;
+    width: 30%; }
   .plan-home .btn-floor {
     margin: 3em auto;
     text-align: center; }
@@ -498,6 +517,10 @@ a {
 .plan-project {
   background: url("../../assets/images/bg-img/left-bg-left.png") no-repeat left top;
   background-size: 180px; }
+  .plan-project .master-plan-det {
+    color: #C4B190;
+    font-size: 1.2em;
+    padding: 0 0 2em 0; }
 
 .footer {
   background: #000;

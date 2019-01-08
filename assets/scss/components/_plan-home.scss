@@ -1,5 +1,15 @@
 .plan-home{
     padding: 0em 0 5em;
+    .plan-home-det{
+        color: $main-color;
+        text-align: center;
+        font-size: 1.2em;
+        padding: 0;
+    }
+    .home-line{
+        border-top: solid 2px $main-color;
+        width: 30%;
+    }
     .btn-floor{
         margin: 3em auto;
         text-align: center;
