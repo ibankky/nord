@@ -324,7 +324,8 @@
                         <div class="pl-5">
                              <h2 class="heading-topic">Location & <br>
                             Neighbourhood</h2>
-                            <button type="button" class="btn btn-map"> Graphic Map</button>
+                           
+                            <button type="button" class="btn btn-map" href="#" data-toggle="modal" data-target="#mapModal" > Graphic Map</button>
                         </div>
                        
                         <div class="row">
@@ -542,7 +543,29 @@
                 
               </div>
             </div>
-          </div>
+      </div>
+
+      <div class="modal fade " id="mapModal" tabindex="-1" role="dialog" aria-labelledby="newsModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="mapModalLabel"></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12 news-modal">
+                             <img class="img-fluid" src="./assets/images/NORD-Plan-map.jpg">
+                        </div>
+                    </div>
+                   
+                </div>
+                
+              </div>
+            </div>
+      </div>
       
       
  
