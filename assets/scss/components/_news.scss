@@ -1,21 +1,26 @@
-.news{
+.news {
     padding: 3em 0;
-    .news-toppic{
+
+    .news-toppic {
         padding: 2em 0 0;
         text-transform: uppercase;
     }
-    .news-block{
+
+    .news-block {
         padding: 3em 2em;
         position: relative;
-        .news-thumnail{
+
+        .news-thumnail {
             height: 15em;
-            overflow: hidden; 
+            overflow: hidden;
         }
-        .news-content{
+
+        .news-content {
             background: $main-color;
-            padding:1em;
+            padding: 1em;
         }
-        .new-det{
+
+        .new-det {
             color: #fff;
             letter-spacing: 1px;
             font-weight: 300;
@@ -23,39 +28,42 @@
             line-height: 1.6;
             margin: 0;
         }
-        .read-more{
+
+        .read-more {
             margin: 0;
-            a{
+
+            a {
                 padding: 0.5em 0 0 0;
                 color: #fff;
                 font-size: 1em;
                 text-transform: uppercase;
                 font-weight: 300;
                 letter-spacing: 1.5px;
-                text-decoration: underline!important;
+                text-decoration: underline !important;
                 display: block;
             }
-            
+
         }
     }
+
     @media only screen and (max-width: 992px) {
-        .news-thumnail{
+        .news-thumnail {
             img {
                 width: 100%;
             }
         }
-        
+
     }
 }
-.news-modal{
-    p{
+
+.news-modal {
+    p {
         padding: 2em 0;
     }
 }
 
 @media only screen and (max-width: 992px) {
-    .news .news-block .news-thumnail{
-        height: auto; 
+    .news .news-block .news-thumnail {
+        height: auto;
     }
 }
-

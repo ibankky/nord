@@ -1,15 +1,17 @@
-.project-detail{
-    padding:5em 0;
+.project-detail {
+    padding: 5em 0;
     background: url('../../assets/images/bg-img/big-leaf-bg.png') no-repeat right bottom;
     background-size: 250px;
     background-position: right -50px bottom 10px;
-    .heading-topic{
+
+    .heading-topic {
         text-transform: uppercase;
         font-weight: bold;
         letter-spacing: 2px;
         font-weight: 500;
     }
-    .btn-map{
+
+    .btn-map {
         background: $main-color;
         color: #fff;
         text-transform: uppercase;
@@ -18,18 +20,21 @@
         border-radius: 0;
         letter-spacing: 1.5px;
     }
-    .nav-detail{
+
+    .nav-detail {
         padding: 3em 0 0;
     }
-    .nav-tabs{
-        border:none;
+
+    .nav-tabs {
+        border: none;
     }
-    .nav-tabs .nav-link{
-        border-left:none;
-        border-right:none;
-        border-top:none;
+
+    .nav-tabs .nav-link {
+        border-left: none;
+        border-right: none;
+        border-top: none;
         border-bottom: solid 1px #000;
-        background-color:transparent;
+        background-color: transparent;
         color: $grey;
         font-size: 1.4em;
         letter-spacing: 1px;
@@ -38,54 +43,62 @@
         line-height: 1.4;
         padding: 0.5em 0;
         width: 75%;
+
         &:last-child {
             border-bottom: none;
         }
-        
+
     }
-    .nav-tabs .nav-link.active{
+
+    .nav-tabs .nav-link.active {
         color: $black;
-        
+
     }
-    .tab-pane{
+
+    .tab-pane {
         padding: 5em 0;
     }
 
-    .detail-content{
-        .list-unstyled{
+    .detail-content {
+        .list-unstyled {
             margin: 1em 0 0 0;
-            &:first-child{
+
+            &:first-child {
                 margin: 0;
             }
-            li{
+
+            li {
                 line-height: 2em;
                 letter-spacing: 0.5px;
                 font-weight: 500;
                 font-size: 0.9em;
             }
         }
-        .icon-list{
+
+        .icon-list {
             width: 30px;
             height: 30px;
             margin-right: 0.5em;
         }
     }
-    .remark-icon{
+
+    .remark-icon {
         font-size: 0.8em;
         text-transform: uppercase;
         letter-spacing: 1px;
     }
+
     @media only screen and (max-width: 992px) {
-        .project-header{
+        .project-header {
             text-align: center;
         }
     }
+
     @media only screen and (max-width: 576px) {
-        .remark-icon{
+        .remark-icon {
             padding: 3em 0 0 1em;
         }
     }
-    
-    
-}
 
+
+}

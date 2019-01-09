@@ -1,12 +1,13 @@
-.register{
+.register {
     //background: url('../../assets/images/sub-bg.jpg') no-repeat right bottom;
-    padding : 5rem 0; 
+    padding: 5rem 0;
     min-height: 700px;
-   
-    .logo-sub{
+
+    .logo-sub {
         padding: 8em 0 2em;
     }
-    .btn-regis{
+
+    .btn-regis {
         background: $white;
         color: $black;
         outline: 2px solid $white;
@@ -19,20 +20,23 @@
         letter-spacing: 1px;
         text-transform: uppercase;
     }
-    .regis-bg{
+
+    .regis-bg {
         background: url('../../assets/images/bg-img/regis-bg.jpg') no-repeat left center;
         height: 600px;
-        background-size:cover;
+        background-size: cover;
     }
-    .btn-regis{
+
+    .btn-regis {
         padding: 0.4em 2em;
         text-transform: uppercase;
         text-align: center;
     }
+
     @media only screen and (max-width: 768px) {
-        .logo-sub{
+        .logo-sub {
             width: 50%;
         }
     }
-    
+
 }

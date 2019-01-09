@@ -1,14 +1,16 @@
-.map{
+.map {
     padding: 2em 0;
-    .link-map{
+
+    .link-map {
         color: $black;
         text-align: center;
-        line-height: 2; 
+        line-height: 2;
         text-decoration: underline;
         margin: 2em 0 0 0;
-        a{
+
+        a {
             color: $black;
-        } 
-       
+        }
+
     }
 }

@@ -1,15 +1,18 @@
-.footer{
+.footer {
     background: $black;
     padding: 3em 0;
-    .link-inline{
+
+    .link-inline {
         text-align: center;
         font-size: 2em;
-        a{
+
+        a {
             color: $white
         }
-        li{
+
+        li {
             padding: 0 0.2em;
         }
-        
+
     }
 }

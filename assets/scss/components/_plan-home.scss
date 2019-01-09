@@ -1,28 +1,33 @@
-.plan-home{
+.plan-home {
     padding: 0em 0 5em;
-    .plan-home-det{
+
+    .plan-home-det {
         color: $main-color;
         text-align: center;
         font-size: 1.2em;
         padding: 0;
     }
-    .home-line{
+
+    .home-line {
         border-top: solid 2px $main-color;
         width: 30%;
     }
-    .btn-floor{
+
+    .btn-floor {
         margin: 3em auto;
         text-align: center;
-        .active{
-            .btn{
+
+        .active {
+            .btn {
                 background: $main-color;
                 color: #fff;
-            } 
+            }
         }
-       .btn{
+
+        .btn {
             background: none;
             border-radius: 0;
-            border:solid 2px $main-color;
+            border: solid 2px $main-color;
             margin: 0 0.5em;
             width: 3rem;
             height: 3rem;
@@ -30,7 +35,8 @@
             font-weight: 300;
             font-size: 1.4em;
             padding: 0;
-            span{
+
+            span {
                 font-size: 0.7em;
                 line-height: 0;
                 position: relative;
@@ -38,20 +44,24 @@
                 left: 2px;
             }
         }
-        .nav{
+
+        .nav {
             display: block;
         }
     }
-    .floor-plan{
+
+    .floor-plan {
         border-left: solid 2px $main-color;
         padding: 2em 0;
     }
-    .room-det{
+
+    .room-det {
         text-align: center;
         vertical-align: bottom;
         position: relative;
         height: 9em;
-        .room-name{
+
+        .room-name {
             font-size: 1.2em;
             margin: 0;
             text-transform: uppercase;
@@ -62,7 +72,8 @@
             text-align: center;
 
         }
-        .room-data{
+
+        .room-data {
             color: $main-color;
             font-size: 2em;
             line-height: 1.2;
@@ -73,12 +84,14 @@
             text-align: center;
         }
     }
+
     @media only screen and (max-width: 992px) {
-        .floor-plan{
-            border-left:none;
-         }
-         .tab-pane{
-             text-align: center;
-         }
-      }
+        .floor-plan {
+            border-left: none;
+        }
+
+        .tab-pane {
+            text-align: center;
+        }
+    }
 }
