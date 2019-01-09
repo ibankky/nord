@@ -1,10 +1,21 @@
 .concept {
+    position: relative;
     padding: 5em 0;
-    background-image: url('../../assets/images/bg-img/left-bg-left.png'), url('../../assets/images/bg-img/right-bg-tree.png');
-    background-position: left top, right bottom;
-    background-repeat: no-repeat;
-    background-size: 180px, 250px;
-
+    //background-image: url('../../assets/images/bg-img/left-bg-left.png'), url('../../assets/images/bg-img/right-bg-tree.png');
+    //background-position: left top, right bottom; 
+    //background-repeat: no-repeat;
+    //background-size: 180px, 250px;
+    .tree-left{
+        position: absolute;
+        top:0;
+        width: 180px;
+    }
+    .tree-right{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 250px;
+    }
     .concept-header {
         text-transform: uppercase;
         letter-spacing: 2px;

@@ -39,3 +39,28 @@ $(function(){
     
     });
   });
+
+  $(function(){
+    AOS.init({
+      easing: 'ease-in-out-sine',
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: true,
+    });
+  });
+  $(function(){
+    window.onscroll = function () {
+      myFunction()
+  };
+  
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+      if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky-nav")
+      } else {
+          navbar.classList.remove("sticky-nav");
+      }
+  }
+  });
+  

@@ -1,7 +1,13 @@
 .plan-project {
-    background: url('../../assets/images/bg-img/left-bg-left.png') no-repeat left top;
-    background-size: 180px;
-
+    position: relative;
+    //background: url('../../assets/images/bg-img/left-bg-left.png') no-repeat left top;
+    //background-size: 180px;
+    .tree-left{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 180px;
+    }
     .master-plan-det {
         color: $main-color;
         font-size: 1.2em;
