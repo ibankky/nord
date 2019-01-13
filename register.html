@@ -25,7 +25,7 @@
 
 
     <header class="tophead">
-        <nav class="navbar navbar-top  navbar-expand-md navbar-light bg-light">
+        <nav class="navbar navbar-expand navbar-light bg-navregis">
             <a class="navbar-brand" href="#">
                 <img src="./assets/images/nord-log-top-grey.png">
             </a>
@@ -53,7 +53,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 d-none d-sm-none d-md-none d-lg-block ">
                             <img class="img-fluid form-logo" src="assets/images/nord-log-top-white.png">
                             <div class="regis-detail">
                                 <h4 class="regis-sale">สำนักงานขาย</h4>
@@ -101,7 +101,7 @@
                                     <input type="email" class="form-control" id="regis-form-email" placeholder="อีเมล์">
                                 </div>
                                 <div class="row">
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-6 col-md-8 col-sm-8 col-8">
                                         <div class="form-group">
 
                                             <select class="form-control" id="regis-form-time">
@@ -115,7 +115,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-6 col-md-4 col-sm-4 col-4">
                                         <button type="submit" class="btn btn-confirm float-right">ยืนยัน</button>
                                     </div>
                                 </div>
@@ -123,6 +123,50 @@
 
                             </form>
 
+                        </div>
+                        <div class="col-md-12 d-xl-none">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="regis-detail-popup">
+                                             <h4 class="regis-sale">สำนักงานขาย</h4>
+                                            <div class="spacing">
+                                                <p>พระราม 9 ซอย 49</p>
+                                                <p>เขตสวนหลวง, กรุงเทพ 10250</p>
+                                            </div>
+                                            <div class="spacing">
+                                                <!--  <p>Info @ asseta.com</p> -->
+                                                <p>081 234 5678</p>
+                                            </div>
+                                        </div>                                   
+                                    </div>
+                                    <div class="col">
+                                            <div class="regis-detail-popup">
+                                                <img class="img-fluid form-logo" src="assets/images/nord-log-top-white.png">
+                                                <div class="spacing">
+                                                        <ul class="list-inline social-list">
+                                                            <li class="list-inline-item">
+                                                                <a href="#">
+                                                                    <i class="fab fa-facebook-square"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a href="#">
+                                                                    <i class="fab fa-instagram"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <a href="#">
+                                                                    <i class="fab fa-line"></i>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                             </div>   
+                                            
+                                        
+                                    </div>
+                                </div>
+                            
                         </div>
                     </div>
 
@@ -133,62 +177,7 @@
 
     </section>
 
-    <div class="modal fade " id="newsModal" tabindex="-1" role="dialog" aria-labelledby="newsModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="newsModalLabel">News</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-lg-12 news-modal">
-                            <img class="img-fluid" src="./assets/images/detail-img1.png">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's
-                                standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                                and
-                                scrambled it to make a type specimen book. It has survived not only five centuries,
-                                but also the leap into electronic typesetting, remaining essentially unchanged.
-                                It was popularised in the 1960s with the release of Letraset sheets containing
-                                Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-                                PageMaker
-                                including versions of Lorem Ipsum.</p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade " id="mapModal" tabindex="-1" role="dialog" aria-labelledby="newsModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="mapModalLabel"></h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-lg-12 news-modal">
-                            <img class="img-fluid" src="./assets/images/MAP2-01.png">
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-
+ 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script ype="text/javascript" src="./assets/js/jquery.min.js"></script>

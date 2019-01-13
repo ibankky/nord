@@ -55,6 +55,36 @@
         }
     }
 
+    .regis-detail-popup{
+        color: $white;
+        padding: 1em 0;
+        text-align: left;
+
+        p {
+            margin: 0;
+            line-height: 1.8;
+            font-size: 1.2em;
+            letter-spacing: 1px;
+        }
+
+        .regis-sale {
+            letter-spacing: 2px;
+            font-weight: 400;
+            text-transform: uppercase;
+            font-size: 2em;
+            margin-bottom: 0.5em;
+        }
+
+        .spacing {
+            padding-bottom: 0.8em;
+        }
+        /* .form-logo{
+            max-width: 150px; 
+            margin: 0;
+        }
+ */
+    }
+
     .social-list {
         font-size: 2em;
 
@@ -77,4 +107,11 @@
         padding: 0;
     }
 
+}
+
+@media only screen and (max-width: 768px) {
+    .regis-form .regis-detail-popup .form-logo{
+        padding: 2em 0 0 0;
+        width: 200px;
+    }
 }

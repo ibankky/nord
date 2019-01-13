@@ -1,6 +1,6 @@
 .tophead {
     background: url('../../assets/images/bg-img/header-bg-new2.jpg') no-repeat center bottom;
-    height: 120vh;
+    height: 115vh;
     padding: 0;
     padding-bottom: 0;
 
@@ -67,6 +67,10 @@
         transform: translateX(-50%);
     }
 
+    .bg-navregis{
+        background-color:rgba(248,249,250,1);
+    }
+
 
 }
 
@@ -95,6 +99,10 @@
     .navbar-top {
         display: none;
     }
+    .tophead .bg-navregis{
+        background-color:rgba(248,249,250,0.8);
+    }
+    
 }
 
 @media only screen and (max-width: 768px) {

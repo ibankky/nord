@@ -36,7 +36,7 @@ a {
     margin: 0 !important; } }
 .tophead {
   background: url("../../assets/images/bg-img/header-bg-new2.jpg") no-repeat center bottom;
-  height: 120vh;
+  height: 115vh;
   padding: 0;
   padding-bottom: 0; }
   .tophead .logo-main {
@@ -75,6 +75,8 @@ a {
     position: absolute;
     left: 50%;
     transform: translateX(-50%); }
+  .tophead .bg-navregis {
+    background-color: #f8f9fa; }
 
 @media only screen and (max-width: 1200px) {
   .tophead .bg-main .nav-link {
@@ -92,7 +94,10 @@ a {
     width: 100%; }
 
   .navbar-top {
-    display: none; } }
+    display: none; }
+
+  .tophead .bg-navregis {
+    background-color: rgba(248, 249, 250, 0.8); } }
 @media only screen and (max-width: 768px) {
   .tophead .bg-main {
     z-index: 999; }
@@ -507,6 +512,28 @@ a {
       margin-bottom: 0.5em; }
     .regis-form .regis-detail .spacing {
       padding-bottom: 0.8em; }
+  .regis-form .regis-detail-popup {
+    color: #fff;
+    padding: 1em 0;
+    text-align: left;
+       /* .form-logo{
+           max-width: 150px; 
+           margin: 0;
+       }
+*/ }
+    .regis-form .regis-detail-popup p {
+      margin: 0;
+      line-height: 1.8;
+      font-size: 1.2em;
+      letter-spacing: 1px; }
+    .regis-form .regis-detail-popup .regis-sale {
+      letter-spacing: 2px;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 2em;
+      margin-bottom: 0.5em; }
+    .regis-form .regis-detail-popup .spacing {
+      padding-bottom: 0.8em; }
   .regis-form .social-list {
     font-size: 2em; }
     .regis-form .social-list a {
@@ -520,6 +547,10 @@ a {
 
   .regis-form .form-register {
     padding: 0; } }
+@media only screen and (max-width: 768px) {
+  .regis-form .regis-detail-popup .form-logo {
+    padding: 2em 0 0 0;
+    width: 200px; } }
 .plan-project {
   position: relative; }
   .plan-project .tree-left {
