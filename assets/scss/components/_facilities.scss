@@ -12,12 +12,18 @@
     margin-top: 5em;
     text-align: center;
     text-transform: uppercase;
-    padding: 5em 0;
-
+    padding: 3em 0;
+    h2{
+      padding: 0 0 1em 0;
+      font-family: 'Athiti',sans-serif;
+      font-weight: 400;
+    }
     h3 {
+      font-family: 'Athiti',sans-serif;
       font-size: 1.2em;
       font-weight: 400;
       letter-spacing: 1px;
+      text-transform: capitalize;
     }
 
     .dot {

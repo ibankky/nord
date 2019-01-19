@@ -9,8 +9,11 @@
         width: 180px;
     }
     .master-plan-det {
-        color: $main-color;
+        color: #333;
         font-size: 1.2em;
         padding: 0 0 2em 0;
+        display: list-item;  
+        list-style-type: disc;       
+        list-style-position: inside;
     }
 }

@@ -162,11 +162,17 @@ a {
   margin-top: 5em;
   text-align: center;
   text-transform: uppercase;
-  padding: 5em 0; }
+  padding: 3em 0; }
+  .facilities .facility-bg h2 {
+    padding: 0 0 1em 0;
+    font-family: 'Athiti',sans-serif;
+    font-weight: 400; }
   .facilities .facility-bg h3 {
+    font-family: 'Athiti',sans-serif;
     font-size: 1.2em;
     font-weight: 400;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    text-transform: capitalize; }
   .facilities .facility-bg .dot {
     height: 0.5em;
     width: 0.5em;
@@ -236,7 +242,7 @@ a {
     color: #fff;
     text-transform: uppercase;
     padding: 0.8em 2.5em;
-    margin: 2em 0 5em 0;
+    margin: 2em 0 2em 0;
     border-radius: 0;
     letter-spacing: 1.5px; }
   .project-detail .nav-detail {
@@ -277,7 +283,7 @@ a {
     height: 30px;
     margin-right: 0.5em; }
   .project-detail .remark-icon {
-    font-size: 0.8em;
+    font-size: 0.6em;
     text-transform: uppercase;
     letter-spacing: 1px; }
   @media only screen and (max-width: 992px) {
@@ -358,13 +364,43 @@ a {
 .plan-home {
   padding: 0em 0 5em; }
   .plan-home .plan-home-det {
-    color: #C4B190;
-    text-align: center;
-    font-size: 1.2em;
-    padding: 0; }
+    color: #333;
+    letter-spacing: 1px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    padding: 0;
+    display: list-item;
+    /* This has to be "list-item"                                               */
+    list-style-type: disc;
+    /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+    list-style-position: inside;
+    /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */ }
+  .plan-home .remark-det {
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    color: #666; }
   .plan-home .home-line {
     border-top: solid 2px #C4B190;
     width: 30%; }
+  .plan-home .left-list {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside; }
+  .plan-home .right-list:before {
+    content: " : ";
+    padding-right: 2em; }
+  .plan-home .right-list span {
+    display: inline-block;
+    width: 3em; }
+  .plan-home .home-list {
+    font-size: 1em;
+    letter-spacing: 1px;
+    padding-top: 1em;
+    color: #333; }
+    .plan-home .home-list sup {
+      padding-left: 0.1em; }
+    .plan-home .home-list .row {
+      margin-bottom: 0; }
   .plan-home .btn-floor {
     margin: 3em auto;
     text-align: center; }
@@ -559,9 +595,12 @@ a {
     top: 0;
     width: 180px; }
   .plan-project .master-plan-det {
-    color: #C4B190;
+    color: #333;
     font-size: 1.2em;
-    padding: 0 0 2em 0; }
+    padding: 0 0 2em 0;
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside; }
 
 .footer {
   background: #000;
