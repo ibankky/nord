@@ -25,6 +25,7 @@ $(function(){
       slidesToShow: 1,
       speed: 500,
       variableWidth: false,
+      asNavFor: '.slider-caption',
       responsive: [
         {
           breakpoint: 768,
@@ -39,6 +40,16 @@ $(function(){
     
     });
   });
+  $(function(){
+    $('.slider-caption').slick({
+      slidesToShow: 1,
+      dots: false,
+      prevArrow: false,
+      nextArrow: false,
+      draggable:false
+    })
+  })
+  
 
   $(function(){
     AOS.init({

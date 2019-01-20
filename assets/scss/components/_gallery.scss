@@ -51,7 +51,12 @@
   .slick-list {
     background: rgba(0, 0, 0, 0.8);
     z-index: 600;
-
+    
+  }
+  .slider-caption {
+    .slick-list{
+      background: none;
+    }
   }
 
   .slick-slide img {
@@ -97,6 +102,12 @@
     .slick-prev {
       left: 0;
       width: 30px;
+    }
+    .gallery-text{
+      font-size: 1.6em;
+    }
+    .txt-gallery{
+      font-size: 1.2em;
     }
   }
 }

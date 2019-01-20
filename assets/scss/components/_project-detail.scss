@@ -1,5 +1,5 @@
 .project-detail {
-    padding: 5em 0;
+    padding: 5em 0 0;
     background: url('../../assets/images/bg-img/big-leaf-bg.png') no-repeat right bottom;
     background-size: 250px;
     background-position: right -50px bottom 10px;
@@ -86,6 +86,12 @@
         font-size: 0.6em;
         text-transform: uppercase;
         letter-spacing: 1px;
+    }
+
+    .home-line {
+        border-top: solid 2px $main-color;
+        width: 20%;
+        margin-top: 5em;
     }
 
     @media only screen and (max-width: 992px) {
