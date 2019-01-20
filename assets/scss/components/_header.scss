@@ -64,13 +64,19 @@
     .navbar-brand {
         position: absolute;
         left: 50%;
+        top:0;
         transform: translateX(-50%);
     }
 
     .bg-navregis{
         background-color:rgba(248,249,250,1);
     }
-
+    .nav-regis{
+        display: block;
+        outline: none;
+        text-shadow: none;
+        border:none;
+    }
 
 }
 
@@ -110,7 +116,7 @@
        background: none;
        height: 600px;
        .h-100{
-        height: 600px !important;
+        height: 100% !important;
        }
        .container{
            max-width: 100%;
@@ -123,6 +129,15 @@
     .tophead .bg-main .nav-link {
         padding: 1em;
         font-size: 1em;
+    }
+    .tophead-regis{
+        margin-bottom: 50px;
+        .navbar-nav{
+            padding-top: 1em;
+        }
+        .nav-item{
+            padding-bottom: 0.5em;
+        }
     }
 }
 

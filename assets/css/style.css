@@ -74,9 +74,15 @@ a {
   .tophead .navbar-brand {
     position: absolute;
     left: 50%;
+    top: 0;
     transform: translateX(-50%); }
   .tophead .bg-navregis {
     background-color: #f8f9fa; }
+  .tophead .nav-regis {
+    display: block;
+    outline: none;
+    text-shadow: none;
+    border: none; }
 
 @media only screen and (max-width: 1200px) {
   .tophead .bg-main .nav-link {
@@ -103,7 +109,7 @@ a {
     background: none;
     height: 600px; }
     .tophead .h-100 {
-      height: 600px !important; }
+      height: 100% !important; }
     .tophead .container {
       max-width: 100%; }
 
@@ -112,7 +118,14 @@ a {
 
   .tophead .bg-main .nav-link {
     padding: 1em;
-    font-size: 1em; } }
+    font-size: 1em; }
+
+  .tophead-regis {
+    margin-bottom: 50px; }
+    .tophead-regis .navbar-nav {
+      padding-top: 1em; }
+    .tophead-regis .nav-item {
+      padding-bottom: 0.5em; } }
 @media (min-width: 1600px) {
   .tophead {
     height: 100vh; } }
@@ -474,6 +487,8 @@ a {
     .plan-home .floor-plan {
       border-left: none; }
     .plan-home .tab-pane {
+      text-align: center; }
+    .plan-home .det-mobile {
       text-align: center; } }
 
 .map {
