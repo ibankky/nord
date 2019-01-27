@@ -35,7 +35,7 @@ a {
   .margin-0-row {
     margin: 0 !important; } }
 .tophead {
-  background: url("../../assets/images/bg-img/header-bg-new2.png") no-repeat center bottom;
+  background: url("../../assets/images/bg-img/new-concept-bg2.jpg") no-repeat center bottom;
   height: 115vh;
   padding: 0;
   padding-bottom: 0; }
@@ -174,7 +174,7 @@ a {
       margin-right: 1em; }
 
 .facilities .slide-bg {
-  background: url("../../assets/images/bg-img/slider-bg.png") no-repeat left center;
+  background: url("../../assets/images/bg-img/slider-bg.png") no-repeat right bottom;
   height: 600px;
   background-size: cover; }
 .facilities .facility-bg {

@@ -32,8 +32,9 @@ $(function(){
           settings: {
             arrows: true,
             centerMode: true,
-            centerPadding: '60px',
-            slidesToShow: 1
+            //centerPadding: '60px',
+            slidesToShow: 1,
+            centerPadding: '0',
           }
         },
       ]
