@@ -94,15 +94,26 @@
         margin-top: 5em;
     }
 
+    .space-head{
+        padding-left: 3rem;
+    }
+
     @media only screen and (max-width: 992px) {
         .project-header {
             text-align: center;
         }
+        .space-head{
+            padding:0;
+        }
     }
+    
 
     @media only screen and (max-width: 576px) {
         .remark-icon {
             padding: 3em 0 0 1em;
+        }
+        .space-head{
+            padding:0;
         }
     }
 

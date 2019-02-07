@@ -67,6 +67,15 @@
         top:0;
         transform: translateX(-50%);
     }
+    .navbar-tel{
+        display: none;
+    }
+    .navbar-tel{
+        position: absolute;
+        left: 22%;
+        transform: translateX(-22%);
+        font-size: 1.5em;
+    }
 
     .bg-navregis{
         background-color:rgba(248,249,250,1);
@@ -76,6 +85,14 @@
         outline: none;
         text-shadow: none;
         border:none;
+    }
+
+    .tophead .head-big{
+        
+        display: block;
+    }
+    .tophead .head-mobile{
+        display: none;
     }
 
 }
@@ -112,9 +129,16 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .tophead .head-big{
+        display: none;
+    }
+    .tophead .head-mobile{
+        display: block;
+        padding: 0;
+    }
     .tophead {
        background: none;
-       height: 600px;
+       height: auto;
        .h-100{
         height: 100% !important;
        }
@@ -138,6 +162,9 @@
         .nav-item{
             padding-bottom: 0.5em;
         }
+    }
+    .tophead .navbar-tel{
+        display: block;
     }
 }
 

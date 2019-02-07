@@ -5,7 +5,7 @@
     background-size: cover;
   }
 
-  .facility-bg {
+  .facility-bg,.facility-mobile {
     background: $main-color;
     color: $white;
     //min-height: 400px;
@@ -36,6 +36,7 @@
     }
   }
 
+
   .btn-exclusive {
     border: solid 2px $main-color;
     color: #000000;
@@ -47,5 +48,39 @@
     margin: 2em 0;
     letter-spacing: 2px;
   }
+  .facility-mobile{
+    display: none;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .facility-bg{
+      display: none;
+    }
+    .facility-mobile{
+      display: block;
+      margin: 0;
+    }
+    .btn-exclusive{
+      display: none;
+    }
+    .hidden-mobile{
+      display: none;
+    }
+    .mobile-exclusive{
+      color: #fff;
+      border:solid 1px #fff;
+      padding: 0.7em 0 !important;
+      width: 70%;
+      font-size: 1.6em;
+      margin: 0 auto 2em;
+    }
+    .slide-bg {
+      background: url('../../assets/images/bg-img/new-render-mobile.jpg') no-repeat right bottom;
+      height: 600px;
+      background-size: cover;
+    }
+  }
+
+  
 
 }

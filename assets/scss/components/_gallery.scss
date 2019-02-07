@@ -92,22 +92,30 @@
     display: block;
     background: none;
   }
+  .main-gallery {
+    padding: 0 2em;
+  }
 
   @media only screen and (max-width: 768px) {
     .slick-next {
       right: 0;
       width: 30px;
+      top: 50%;
     }
 
     .slick-prev {
       left: 0;
       width: 30px;
+      top: 50%;
     }
     .gallery-text{
       font-size: 1.6em;
     }
     .txt-gallery{
       font-size: 1.2em;
+    }
+    .main-gallery {
+      padding: 0;
     }
   }
 }

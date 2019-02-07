@@ -1,6 +1,7 @@
 .concept {
     position: relative;
     padding: 5em 0;
+    overflow: hidden;
     //background-image: url('../../assets/images/bg-img/left-bg-left.png'), url('../../assets/images/bg-img/right-bg-tree.png');
     //background-position: left top, right bottom; 
     //background-repeat: no-repeat;
@@ -52,4 +53,16 @@
     .concept-detail {
         padding-bottom: 5em;
     }
+}
+
+@media only screen and (max-width: 768px) {
+    .concept {
+        .concept-header{
+            font-size: 1.8em;
+        }
+        .concept-subheader{
+            font-size: 1.4em;
+        }
+    }
+    
 }

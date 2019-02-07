@@ -16,4 +16,15 @@
         list-style-type: disc;       
         list-style-position: inside;
     }
+    @media only screen and (max-width: 768px) {
+        .master-plan-det{
+            list-style-type: none;       
+            list-style-position: inside;
+            //border:solid 1px #333;
+            background: #fff;
+            padding: 1em 0;
+            width: 70%;
+            margin: 1em auto 2em;
+        }
+    }
 }
