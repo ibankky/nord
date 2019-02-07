@@ -375,6 +375,11 @@ a {
     .project-detail .space-head {
       padding: 0; } }
 
+@media only screen and (max-width: 768px) {
+  .project-detail {
+    background: url("../../assets/images/bg-img/big-leaf-bg.png") no-repeat right bottom;
+    background-size: 250px;
+    background-position: right -115px bottom 10px; } }
 .project-data .concept-txt {
   font-size: 1.4em;
   line-height: 1.6;
