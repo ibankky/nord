@@ -28,7 +28,7 @@ $(function(){
       asNavFor: '.slider-caption',
       responsive: [
         {
-          breakpoint: 768,
+          breakpoint: 769,
           settings: {
             arrows: true,
             centerMode: true,

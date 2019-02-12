@@ -93,9 +93,18 @@
         width: 20%;
         margin-top: 5em;
     }
-
+    .home-line-bottom{
+        border-top: solid 2px $main-color;
+        width: 20%;
+        margin-top: 1em;
+    }
     .space-head{
         padding-left: 3rem;
+    }
+    .price{
+        h4{
+            line-height: 1.6;
+        }
     }
 
     @media only screen and (max-width: 992px) {

@@ -163,9 +163,13 @@
             padding-bottom: 0.5em;
         }
     }
+
+}
+@media only screen and (max-width: 767px) {
     .tophead .navbar-tel{
         display: block;
     }
+
 }
 
 @media (min-width: 1600px) {

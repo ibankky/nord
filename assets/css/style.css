@@ -143,8 +143,8 @@ a {
     .tophead-regis .navbar-nav {
       padding-top: 1em; }
     .tophead-regis .nav-item {
-      padding-bottom: 0.5em; }
-
+      padding-bottom: 0.5em; } }
+@media only screen and (max-width: 767px) {
   .tophead .navbar-tel {
     display: block; } }
 @media (min-width: 1600px) {
@@ -235,6 +235,9 @@ a {
   letter-spacing: 2px; }
 .facilities .facility-mobile {
   display: none; }
+@media only screen and (max-width: 1080px) {
+  .facilities .facility-bg {
+    font-size: 0.9em; } }
 @media only screen and (max-width: 768px) {
   .facilities .facility-bg {
     display: none; }
@@ -362,8 +365,14 @@ a {
     border-top: solid 2px #C4B190;
     width: 20%;
     margin-top: 5em; }
+  .project-detail .home-line-bottom {
+    border-top: solid 2px #C4B190;
+    width: 20%;
+    margin-top: 1em; }
   .project-detail .space-head {
     padding-left: 3rem; }
+  .project-detail .price h4 {
+    line-height: 1.6; }
   @media only screen and (max-width: 992px) {
     .project-detail .project-header {
       text-align: center; }
@@ -444,7 +453,7 @@ a {
     background: none; }
   .gallery .main-gallery {
     padding: 0 2em; }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 769px) {
     .gallery .slick-next {
       right: 0;
       width: 30px;
