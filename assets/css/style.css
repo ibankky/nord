@@ -388,7 +388,7 @@ a {
   .project-detail {
     background: url("../../assets/images/bg-img/big-leaf-bg.png") no-repeat right bottom;
     background-size: 250px;
-    background-position: right -115px bottom 10px; } }
+    background-position: right -135px bottom 10px; } }
 .project-data .concept-txt {
   font-size: 1.4em;
   line-height: 1.6;
@@ -453,7 +453,7 @@ a {
     background: none; }
   .gallery .main-gallery {
     padding: 0 2em; }
-  @media only screen and (max-width: 769px) {
+  @media only screen and (max-width: 992px) {
     .gallery .slick-next {
       right: 0;
       width: 30px;
