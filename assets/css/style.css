@@ -77,10 +77,8 @@ a {
     top: 0;
     transform: translateX(-50%); }
   .tophead .navbar-tel {
-    display: none; }
-  .tophead .navbar-tel {
-    position: absolute;
-    left: 22%;
+    position: relative;
+    right: 80%;
     transform: translateX(-22%);
     font-size: 1.5em; }
   .tophead .bg-navregis {
@@ -145,8 +143,14 @@ a {
     .tophead-regis .nav-item {
       padding-bottom: 0.5em; } }
 @media only screen and (max-width: 767px) {
-  .tophead .navbar-tel {
+  .navbar .collapsed .navbar-tel {
     display: block; } }
+@media only screen and (max-width: 600px) {
+  .tophead .navbar-tel {
+    position: relative;
+    right: 75%;
+    transform: translateX(-22%);
+    font-size: 1.5em; } }
 @media (min-width: 1600px) {
   .tophead {
     height: 100vh; } }
