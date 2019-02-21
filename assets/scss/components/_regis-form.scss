@@ -10,6 +10,7 @@
 
     .form-register {
         padding: 8em 0;
+        
     }
 
     .form-group {
@@ -19,6 +20,16 @@
             box-shadow: none;
             border-radius: 0;
         }
+    }
+    .required{ 
+        &:before{
+            content:" *";
+            color: #dc3545 ;
+            position: absolute;
+            left: 0;
+            padding: 9px 0;
+        }
+         
     }
 
     .btn-confirm {
@@ -96,7 +107,9 @@
             margin-right: 1rem;
         }
     }
+    
 }
+
 
 @media only screen and (max-width: 992px) {
     .regis-form {

@@ -520,8 +520,7 @@
                                 <li><img class="icon-list" src="./assets/images/icon/school.png">2 กม. ถึง
                                     ร.ร.บดินทรเดชา</li>
                                 <li><img class="icon-list" src="./assets/images/icon/school.png">5.3 กม. ถึง Assumption University of Thailand (ABAC)</li>
-                                <li><img class="icon-list" src="./assets/images/icon/school.png">11 กม. ถึง Keerapat International School (KPIS)
-                                    International School</li>
+                                <li><img class="icon-list" src="./assets/images/icon/school.png">11 กม. ถึง Keerapat International School (KPIS)</li>
                                 <li><img class="icon-list" src="./assets/images/icon/school.png">4.7 กม. ถึง Regent's
                                     International School</li>
                                 <li><img class="icon-list" src="./assets/images/icon/school.png">4.7 กม. ถึง Lycée
@@ -661,33 +660,40 @@
                             <form class="form-register">
                                 <div class="form-group">
                                     <!-- <label for="regis-form-name">ชื่อ</label> -->
-                                    <input type="text" class="form-control" id="regis-form-name" placeholder="ชื่อ">
+                                    <div class="required">
+                                        <input type="text" class="form-control form-name" id="regis-form-name" placeholder="ชื่อ">
+                                    </div>
+                                    
                                 </div>
                                 <div class="form-group">
                                     <!-- <label for="regis-form-tel">เบอร์ติดต่อ</label> -->
-                                    <input type="text" class="form-control" id="regis-form-tel" placeholder="เบอร์ติดต่อ">
+                                    <div class="required">
+                                        <input type="text" class="form-control form-tel" id="regis-form-tel" placeholder="เบอร์ติดต่อ">
+                                    </div>
                                 </div>
                                 <div class="form-group">
                                     <!-- <label for="regis-form-email">อีเมล์</label> -->
-                                    <input type="email" class="form-control" id="regis-form-email" placeholder="อีเมล">
+                                    <input type="email" class="form-control form-email" id="regis-form-email" placeholder="อีเมล">
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="form-group">
-
-                                            <select class="form-control" id="regis-form-time">
-                                                <option>ช่วงเวลาที่สะดวกให้เราติดต่อกลับ</option>
-                                                <option>08.00 - 10.00 น.</option>
-                                                <option>10.00 - 12.00 น</option>
-                                                <option>12.00 - 14.00 น.</option>
-                                                <option>14.00 - 16.00 น. </option>
-                                                <option>16.00 - 18.00 น</option>
-                                                <option>18.00 - 20.00 น.</option>
-                                            </select>
+                                            <div class="required">
+                                                <select class="form-control " id="regis-form-time">
+                                                    <option>ช่วงเวลาที่สะดวกให้เราติดต่อกลับ</option>
+                                                    <option>08.00 - 10.00 น.</option>
+                                                    <option>10.00 - 12.00 น</option>
+                                                    <option>12.00 - 14.00 น.</option>
+                                                    <option>14.00 - 16.00 น. </option>
+                                                    <option>16.00 - 18.00 น</option>
+                                                    <option>18.00 - 20.00 น.</option>
+                                                </select>
+                                            </div>    
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
-                                        <button type="submit" class="btn btn-confirm float-right">ยืนยัน</button>
+                                        <button type="button" class="btn btn-confirm float-right" href="#" data-toggle="modal" data-target="#ModalSuccess">ยืนยัน</button>
+                                        
                                     </div>
                                 </div>
                                 <div class="row">
@@ -775,6 +781,30 @@
                     <div class="row">
                         <div class="col-lg-12 news-modal">
                            <h2 class="text-center">Coming Soon</h2>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="ModalSuccess" tabindex="-1" role="dialog" aria-labelledby="ModalSuccessLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12 success-modal">
+                           <h1 class="text-center text-success icon-success"><i class="fas fa-check"></i></h1> 
+                           <h2 class="text-center text-success">Thank you</h2>
+                           <h4>ขอบคุณที่ให้ความสนใจโครงการ Nord Ladprao 110</h4>
+                           <h4>เจ้าหน้าที่จะติดต่อเพื่อให้ข้อมูลโครงการ ตามเวลาที่ท่านนัดหมายค่ะ</h4>
                         </div>
                     </div>
 

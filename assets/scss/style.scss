@@ -1,6 +1,7 @@
 @import "theme/_color";
 @import "theme/_fonts";
 @import "theme/_default";
+@import "theme/_modal";
 
 @import "components/_header";
 @import "components/_register";
@@ -13,7 +14,7 @@
 @import "components/_plan-home";
 @import "components/_map";
 @import "components/_news";
-@import "components/regis-form";
-@import "components/plan-project";
-@import "components/footer";
+@import "components/_regis-form";
+@import "components/_plan-project";
+@import "components/_footer";
 @import "components/_nav";

@@ -15,4 +15,10 @@
         }
 
     }
+    #regis-form-name{
+        &::before{
+            content:"*";
+            color:red;
+        }
+    }
 }

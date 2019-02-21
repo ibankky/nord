@@ -34,6 +34,20 @@ a {
 @media only screen and (max-width: 992px) {
   .margin-0-row {
     margin: 0 !important; } }
+.success-modal .icon-success {
+  border-radius: 100%;
+  padding: 0.5em;
+  border: solid 1px #ccc;
+  margin: 0.5em auto;
+  width: 90px; }
+.success-modal h2 {
+  text-transform: uppercase;
+  padding-bottom: 2em; }
+.success-modal h4 {
+  padding-bottom: 1.5em;
+  text-align: center;
+  line-height: 2; }
+
 .tophead {
   background: url("../../assets/images/bg-img/new-concept-bg2.jpg") no-repeat center bottom;
   height: 115vh;
@@ -638,6 +652,12 @@ a {
     color: #000;
     box-shadow: none;
     border-radius: 0; }
+  .regis-form .required:before {
+    content: " *";
+    color: #dc3545;
+    position: absolute;
+    left: 0;
+    padding: 9px 0; }
   .regis-form .btn-confirm {
     margin: 0;
     padding: 0.5em 2em;
@@ -734,6 +754,9 @@ a {
       color: #fff; }
     .footer .link-inline li {
       padding: 0 0.2em; }
+  .footer #regis-form-name::before {
+    content: "*";
+    color: red; }
 
 .sticky-nav {
   position: fixed !important;
